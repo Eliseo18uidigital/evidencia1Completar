@@ -28,11 +28,11 @@ public class Vehiculo {
     }
 
     public int getModelo() {
-        return ***********;
+        return modelo;
     }
 
     public double getKilometraje() {
-        return ***********;
+        return kilometraje;
     }
 
     // Método toString para representar la información del vehículo en texto
@@ -45,13 +45,13 @@ public class Vehiculo {
 class Auto extends Vehiculo {
     // Constructor de la clase Auto
     public Auto(String codigo, String marca, int modelo, double kilometraje) {
-        super(codigo, marca, ******, modelo, kilometraje); // Llama al constructor de Vehiculo
+        super(codigo, marca,"Auto", modelo, kilometraje); // Llama al constructor de Vehiculo
     }
 }
 
 class Camioneta extends Vehiculo {
     // Constructor de la clase Camioneta
-    public Camioneta(String *****, String marca, int *****, double kilometraje) {
+    public Camioneta(String codigo , String marca, int modelo, double kilometraje) {
         super(codigo, marca, "Camioneta", modelo, ***********);
     }
 }
