@@ -11,20 +11,20 @@ public class Vehiculo {
         this.marca = marca;
         this.tipo = tipo;
         this.modelo = modelo;
-        this.kilometraje = ***********;
+        this.kilometraje =kilometraje;
     }
 
     // Métodos getter para obtener los valores de los atributos
     public String getCodigo() {
-        return ***********;
+        return codigo;
     }
 
     public String getMarca() {
-        return ***********;
+        return marca;
     }
 
     public String getTipo() {
-        return ***********;
+        return tipo;
     }
 
     public int getModelo() {
